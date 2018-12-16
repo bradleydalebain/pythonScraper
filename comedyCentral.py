@@ -23,8 +23,8 @@ urls = []
 def show_page(browser):
     browser.get('http://www.cc.com/')
 def login(browser):
-    uname = 'jsrulz'
-    psswd = 'Iszack91314'
+    uname = ''
+    psswd = ''
     unamefield = browser.find_element_by_xpath('//*[@id="container"]/div/table/tbody/tr/td/table/tbody/tr[2]/td[2]/form/input[1]')
     passfield = browser.find_element_by_xpath('//*[@id="container"]/div/table/tbody/tr/td/table/tbody/tr[2]/td[2]/form/input[2]')
     sub = browser.find_element_by_xpath('//*[@id="container"]/div/table/tbody/tr/td/table/tbody/tr[2]/td[2]/form/input[7]')
