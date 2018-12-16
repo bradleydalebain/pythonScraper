@@ -1,4 +1,3 @@
-''' #!/home/Documents/python/scraper-master/scrape3/python3.6 '''
 import time
 import youtube_dl
 import requests
