@@ -1,0 +1,16 @@
+2018/12/15-20:36:31.412 5236 Reusing MANIFEST /home/brad2/Documents/fuck/scraper/selenium/Default/IndexedDB/https_www.pandora.com_0.indexeddb.leveldb/MANIFEST-000001
+2018/12/15-20:36:31.413 5236 Recovering log #93
+2018/12/15-20:36:31.421 5236 Reusing old log /home/brad2/Documents/fuck/scraper/selenium/Default/IndexedDB/https_www.pandora.com_0.indexeddb.leveldb/000093.log 
+2018/12/15-20:36:32.925 5279 Level-0 table #97: started
+2018/12/15-20:36:33.059 5279 Level-0 table #97: 852132 bytes OK
+2018/12/15-20:36:33.159 5279 Delete type=0 #93
+2018/12/15-20:36:35.113 5279 Compacting 2@0 + 1@1 files
+2018/12/15-20:36:35.192 5279 Generated table #98@0: 31 keys, 214972 bytes
+2018/12/15-20:36:35.192 5279 Compacted 2@0 + 1@1 files => 214972 bytes
+2018/12/15-20:36:35.285 5279 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/12/15-20:36:35.285 5279 Delete type=2 #92
+2018/12/15-20:36:35.285 5279 Delete type=2 #94
+2018/12/15-20:36:35.285 5279 Delete type=2 #97
+2018/12/15-20:36:39.236 5279 Level-0 table #100: started
+2018/12/15-20:36:39.364 5279 Level-0 table #100: 841308 bytes OK
+2018/12/15-20:36:39.408 5279 Delete type=0 #96
