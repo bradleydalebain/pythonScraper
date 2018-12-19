@@ -51,8 +51,13 @@ def login(browser):
     browser.switch_to_window(new_window)
 #wait
     time.sleep(4)
+<<<<<<< HEAD
     uname = 'jsrulz'
     psswd = 'Iszack91314'
+=======
+    uname = ''
+    psswd = ''
+>>>>>>> b20681a1344221907d1fea1518eb3dbfacac2f2d
 #username and password location and entry
     user = browser.find_element_by_xpath('//*[@id="container"]/div/table/tbody/tr/td/table/tbody/tr[2]/td[2]/form/input[1]')
     password = browser.find_element_by_xpath('//*[@id="container"]/div/table/tbody/tr/td/table/tbody/tr[2]/td[2]/form/input[2]')

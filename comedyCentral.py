@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+''' #!/home/Documents/python/scraper-master/scrape3/python3.6 '''
+>>>>>>> b20681a1344221907d1fea1518eb3dbfacac2f2d
 import time
 import youtube_dl
 import requests
@@ -17,6 +21,7 @@ options.add_argument('user-data-dir=selenium')
 options.add_argument('--proxy-server=192.168.43.1:8000')
 browser = webdriver.Chrome(chrome_options=options)
 browser.get(URL)
+<<<<<<< HEAD
 
 def show_page(browser):
     shows = []
@@ -37,6 +42,15 @@ def show_page(browser):
 def login(browser):
     uname = 'jsrulz'
     psswd = 'Iszack91314'
+=======
+urls = []
+
+def show_page(browser):
+    browser.get('http://www.cc.com/')
+def login(browser):
+    uname = ''
+    psswd = ''
+>>>>>>> b20681a1344221907d1fea1518eb3dbfacac2f2d
     unamefield = browser.find_element_by_xpath('//*[@id="container"]/div/table/tbody/tr/td/table/tbody/tr[2]/td[2]/form/input[1]')
     passfield = browser.find_element_by_xpath('//*[@id="container"]/div/table/tbody/tr/td/table/tbody/tr[2]/td[2]/form/input[2]')
     sub = browser.find_element_by_xpath('//*[@id="container"]/div/table/tbody/tr/td/table/tbody/tr[2]/td[2]/form/input[7]')
