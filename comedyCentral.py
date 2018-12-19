@@ -17,10 +17,23 @@ options.add_argument('user-data-dir=selenium')
 options.add_argument('--proxy-server=192.168.43.1:8000')
 browser = webdriver.Chrome(chrome_options=options)
 browser.get(URL)
-urls = []
 
 def show_page(browser):
-    browser.get('http://www.cc.com/')
+    shows = []
+    num_episodes = []
+    browser.get('http://www.cc.com/full-episodes')
+    show_titles = browser.find_elements_by_class_name('title')
+    for title in show_titles:
+        shows.append(title.text)
+    while '' in shows:
+        shows.remove('')
+    episode_num = browser.find_elements_by_class_name('count')
+    for episodes in episode_num:
+        num_episodes.append(episodes.text)
+    while '' in num_episodes:
+        num_episodes.remove('')
+    display = list(zip(shows,num_episodes))
+    pprint(display)
 def login(browser):
     uname = 'jsrulz'
     psswd = 'Iszack91314'
